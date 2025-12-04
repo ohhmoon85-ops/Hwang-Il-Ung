@@ -65,7 +65,7 @@ export const CAREER_HISTORY: CareerItem[] = [
 export const GALLERY_ITEMS: GalleryItem[] = [
   {
     id: 1,
-    imageUrl: "/assets/media_saudi.jpg",
+    imageUrl: "https://images.unsplash.com/photo-1547483238-2cbf881a559f?auto=format&fit=crop&q=80&w=1600",
     title: { 
       ko: "제41대 국군의무사령관 취임 및 부대 지휘", 
       en: "Inauguration & Command as 41st Surgeon General" 
@@ -74,7 +74,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
   },
   {
     id: 2,
-    imageUrl: "/assets/media_saudi.jpg",
+    imageUrl: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&q=80&w=1600",
     title: { 
       ko: "UAE 서울대병원(SKSH) 의료진 격려 및 운영 회의", 
       en: "Leading Operations & Encouraging Staff at UAE SKSH" 
@@ -83,7 +83,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
   },
   {
     id: 3,
-    imageUrl: "/assets/media_saudi.jpg",
+    imageUrl: "https://images.unsplash.com/photo-1577962917302-cd874c4e31d2?auto=format&fit=crop&q=80&w=1600",
     title: { 
       ko: "국가 위기 관리 전략 자문 및 정책 수립", 
       en: "Advising on National Crisis Management Strategy" 
@@ -92,7 +92,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
   },
   {
     id: 4,
-    imageUrl: "/assets/media_saudi.jpg",
+    imageUrl: "https://images.unsplash.com/photo-1666214280557-f1b5022eb634?auto=format&fit=crop&q=80&w=1600",
     title: { 
       ko: "서울대학교병원 척추 센터 진료 및 연구", 
       en: "Clinical Practice & Research at SNUH Spine Center" 
@@ -108,62 +108,62 @@ export const INSIGHTS_DATA: InsightItem[] = [
     title: "[이엠디] 국군의무사령부 황일웅 사령관, 대한병원협회 특별공로상 수상",
     source: "eMD Medical News",
     date: "2016.03.17",
-    link: "https://mdon.co.kr/mobile/article.html?no=8150"
+    link: "http://www.mdnews.kr/news/articleView.html?idxno=17385"
   },
   {
     type: 'Media',
     title: "신임 국군의무사령관에 황일웅 준장",
     source: "의협신문",
     date: "2014.12.24",
-    link: "https://doctorsnews.co.kr/news/articleView.html?idxno=101017"
+    link: "https://www.doctorsnews.co.kr/news/articleView.html?idxno=100958"
+  },
+  {
+    type: 'Media',
+    title: "병협, 황일웅 국군의무사령관에 공로상 시상",
+    source: "데일리팜",
+    date: "2016.03.20",
+    link: "https://www.dailypharm.com/Users/News/NewsView.html?ID=209860"
   },
   {
     type: 'Media',
     title: "靑 의무실장에 황일웅 전 의무사령관...DJ·盧 이어 세 번째",
     source: "뉴시스",
     date: "2017.07.27",
-    link: "https://www.newsis.com/view/NISX20170727_0000052417"
+    link: "https://www.newsis.com/view/?id=NISX20170727_0000052062"
+  },
+  {
+    type: 'Media',
+    title: "청와대 의무실장에 황일웅 前 국군의무사령관",
+    source: "연합뉴스",
+    date: "2017.07.26",
+    link: "https://www.yna.co.kr/view/AKR20170726162300001"
+  },
+  {
+    type: 'Media',
+    title: "청와대 황일웅 의무실장 임명, 세 정부 연속 의무실장",
+    source: "경향신문",
+    date: "2017.07.26",
+    link: "https://www.khan.co.kr/politics/president/article/201707261739001"
   },
   {
     type: 'Column',
     title: "[기고/황일웅]인도네시아에 민군합동구호팀 보내야",
     source: "동아일보",
     date: "2018.10.11",
-    link: "https://www.donga.com/news/Opinion/article/all/20181011/92343564/1"
+    link: "https://www.donga.com/news/Opinion/article/all/20181011/92348632/1"
   },
   {
     type: 'Media',
     title: "[의료바이오]황일웅 국군의무사령관 \"군이 편한 의료체계 구현 역점\"",
     source: "PRESS9",
     date: "2016.05.11",
-    link: "https://www.press9.kr/news/articleView.html?idxno=20341"
+    link: "http://www.press9.kr/news/articleView.html?idxno=17429"
   },
   {
     type: 'Media',
-    title: "병원협회, 국군의무사령부에 메르스 극복 지원 격려금",
-    source: "메디포뉴스",
-    date: "2015.7.17",
-    link: "https://www.medifonews.com/news/article.html?no=109446"
-  }
-  {
-    type: 'Media',
-    title: "메르스 전사'는 그냥 이뤄진게 아닙니다",
-    source: "의협신문",
-    date: "2016.1.11",
-    link: "https://www.doctorsnews.co.kr/news/articleView.html?idxno=108031"
-  }
-  {
-    type: 'Media',
-    title: "국군사령부-NMC 업무협약 체결",
-    source: "의협신문",
-    date: "2015.12.17",
-    link: "https://doctorsnews.co.kr/news/articleView.html?idxno=107608"
-  }
-  {
-    type: 'Media',
-    title: "군인 건강 챙기고 관리 의무 부사관 지원하세요",
-    source: "영남일보",
-    date: "2014.5.22",
-    link: "https://www.yeongnam.com/web/view.php?key=20140522.010240802070001"
+    title: "제41대 국군의무사령관에 황일웅 준장 취임",
+    source: "메드월드뉴스",
+    date: "2014.12.25",
+    link: "http://www.medworld.co.kr/news/articleView.html?idxno=86242"
   }
 ];
