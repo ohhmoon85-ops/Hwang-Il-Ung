@@ -25,10 +25,12 @@ const Insights: React.FC = () => {
   };
 
   const galleryImages = [
-    {
-       src: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=800",
-       caption: t.insights.gallery.img1
-    },
+        {
+          id: 1,
+          type: "photo",
+          title: "사우디 투자부 장관 면담 및 경제 협력 논의",
+          imageUrl: "/assets/media_saudi.jpg"
+        },
     {
        src: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=800",
        caption: t.insights.gallery.img2
