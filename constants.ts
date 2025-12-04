@@ -64,7 +64,8 @@ export const CAREER_HISTORY: CareerItem[] = [
 // Gallery Images Data
 export const GALLERY_ITEMS: GalleryItem[] = [
   {
-    image: "https://images.unsplash.com/photo-1547483238-2cbf881a559f?auto=format&fit=crop&q=80&w=1600",
+    id: 1,
+    imageUrl: "https://images.unsplash.com/photo-1547483238-2cbf881a559f?auto=format&fit=crop&q=80&w=1600",
     title: { 
       ko: "제41대 국군의무사령관 취임 및 부대 지휘", 
       en: "Inauguration & Command as 41st Surgeon General" 
@@ -72,7 +73,8 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: "PHOTO"
   },
   {
-    image: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&q=80&w=1600",
+    id: 2,
+    imageUrl: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&q=80&w=1600",
     title: { 
       ko: "UAE 서울대병원(SKSH) 의료진 격려 및 운영 회의", 
       en: "Leading Operations & Encouraging Staff at UAE SKSH" 
@@ -80,7 +82,8 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: "PHOTO"
   },
   {
-    image: "https://images.unsplash.com/photo-1577962917302-cd874c4e31d2?auto=format&fit=crop&q=80&w=1600",
+    id: 3,
+    imageUrl: "https://images.unsplash.com/photo-1577962917302-cd874c4e31d2?auto=format&fit=crop&q=80&w=1600",
     title: { 
       ko: "국가 위기 관리 전략 자문 및 정책 수립", 
       en: "Advising on National Crisis Management Strategy" 
@@ -88,7 +91,8 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: "PHOTO"
   },
   {
-    image: "https://images.unsplash.com/photo-1666214280557-f1b5022eb634?auto=format&fit=crop&q=80&w=1600",
+    id: 4,
+    imageUrl: "https://images.unsplash.com/photo-1666214280557-f1b5022eb634?auto=format&fit=crop&q=80&w=1600",
     title: { 
       ko: "서울대학교병원 척추 센터 진료 및 연구", 
       en: "Clinical Practice & Research at SNUH Spine Center" 

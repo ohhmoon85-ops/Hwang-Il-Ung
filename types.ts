@@ -26,7 +26,8 @@ export interface InsightItem {
 }
 
 export interface GalleryItem {
-  image: string;
+  id: number;
+  imageUrl: string;
   title: BilingualText;
   category: string;
 }
