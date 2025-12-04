@@ -1,4 +1,5 @@
-import { NavItem, CareerItem, InsightItem } from './types';
+
+import { NavItem, CareerItem, InsightItem, GalleryItem } from './types';
 
 // Colors
 export const COLORS = {
@@ -60,70 +61,50 @@ export const CAREER_HISTORY: CareerItem[] = [
   }
 ];
 
+// Gallery Images Data
+export const GALLERY_ITEMS: GalleryItem[] = [
+  {
+    image: "https://images.unsplash.com/photo-1547483238-2cbf881a559f?auto=format&fit=crop&q=80&w=1600",
+    title: { 
+      ko: "제41대 국군의무사령관 취임 및 부대 지휘", 
+      en: "Inauguration & Command as 41st Surgeon General" 
+    },
+    category: "PHOTO"
+  },
+  {
+    image: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&q=80&w=1600",
+    title: { 
+      ko: "UAE 서울대병원(SKSH) 의료진 격려 및 운영 회의", 
+      en: "Leading Operations & Encouraging Staff at UAE SKSH" 
+    },
+    category: "PHOTO"
+  },
+  {
+    image: "https://images.unsplash.com/photo-1577962917302-cd874c4e31d2?auto=format&fit=crop&q=80&w=1600",
+    title: { 
+      ko: "국가 위기 관리 전략 자문 및 정책 수립", 
+      en: "Advising on National Crisis Management Strategy" 
+    },
+    category: "PHOTO"
+  },
+  {
+    image: "https://images.unsplash.com/photo-1666214280557-f1b5022eb634?auto=format&fit=crop&q=80&w=1600",
+    title: { 
+      ko: "서울대학교병원 척추 센터 진료 및 연구", 
+      en: "Clinical Practice & Research at SNUH Spine Center" 
+    },
+    category: "PHOTO"
+  }
+];
+
 // Insights Data (Titles are kept in original language as they refer to specific sources)
 export const INSIGHTS_DATA: InsightItem[] = [
   {
     type: 'Media',
-    title: "환자중심 軍 의료시스템 개편 시급..\"응급시 정부·민간 협력\"",
-    source: "메디파나뉴스",
-    date: "2019.07.18",
-    link: "https://www.medipana.com/article/view.php?news_idx=242250"
-  },
-  {
-    type: 'Media',
-    title: "대한정형외과학회·국군의무사령부 '악수' (MOU 체결)",
-    source: "의협신문",
-    date: "2019.08.05",
-    link: "https://www.doctorsnews.co.kr/news/articleView.html?idxno=130282"
-  },
-  {
-    type: 'Media',
-    title: "안규백 국방위원장, 환자 중심 군 의료시스템 개편 토론회 개최",
-    source: "시사매거진",
-    date: "2019.07.18",
-    link: "http://www.sisamagazine.co.kr/news/articleView.html?idxno=209730"
-  },
-  {
-    type: 'Column',
-    title: "[기고/황일웅]인도네시아에 민군합동구호팀 보내야",
-    source: "동아일보",
-    date: "2018.10.11",
-    link: "https://www.donga.com/news/Opinion/article/all/20181011/92348632/1"
-  },
-  {
-    type: 'Media',
-    title: "청와대 의무실장에 황일웅 前 국군의무사령관...DJ·盧 이어 세 번째",
-    source: "뉴시스",
-    date: "2017.07.27",
-    link: "https://www.newsis.com/view/?id=NISX20170727_0000052062"
-  },
-  {
-    type: 'Media',
-    title: "청와대 황일웅 의무실장 임명, 세 정부 연속 의무실장 기록",
-    source: "경향신문",
-    date: "2017.07.26",
-    link: "https://www.khan.co.kr/politics/president/article/201707261739001"
-  },
-  {
-    type: 'Media',
-    title: "청와대 의무실장에 황일웅 前 국군의무사령관",
-    source: "연합뉴스",
-    date: "2017.07.26",
-    link: "https://www.yna.co.kr/view/AKR20170726162300001"
-  },
-  {
-    type: 'Media',
-    title: "UAE 셰이크 칼리파 전문병원, 한국 의료 우수성 입증하며 흑자 전환 주도",
-    source: "연합뉴스",
-    date: "2017.02.14",
-    link: "https://www.yna.co.kr/view/AKR20170214154400039"
-  },
-  {
-    type: 'Media',
-    title: "황일웅 신임 의무사령관 취임식 개최",
-    source: "의협신문",
-    date: "2014.12.26",
-    link: "https://www.doctorsnews.co.kr/news/articleView.html?idxno=100995"
+    title: "[이엠디] 국군의무사령부 황일웅 사령관, 대한병원협회 특별공로상 수상",
+    source: "eMD Medical News",
+    date: "2016.03.17",
+    link: "http://www.mdnews.kr/news/articleView.html?idxno=17385"
   },
   {
     type: 'Media',
@@ -134,9 +115,51 @@ export const INSIGHTS_DATA: InsightItem[] = [
   },
   {
     type: 'Media',
-    title: "황일웅 전 사령관, '군 의료, 이제는 대학병원 수준으로 도약해야'",
-    source: "국방일보 인터뷰",
-    date: "2023.10.15",
-    link: "https://kookbang.dema.mil.kr/"
+    title: "병협, 황일웅 국군의무사령관에 공로상 시상",
+    source: "데일리팜",
+    date: "2016.03.20",
+    link: "https://www.dailypharm.com/Users/News/NewsView.html?ID=209860"
+  },
+  {
+    type: 'Media',
+    title: "靑 의무실장에 황일웅 전 의무사령관...DJ·盧 이어 세 번째",
+    source: "뉴시스",
+    date: "2017.07.27",
+    link: "https://www.newsis.com/view/?id=NISX20170727_0000052062"
+  },
+  {
+    type: 'Media',
+    title: "청와대 의무실장에 황일웅 前 국군의무사령관",
+    source: "연합뉴스",
+    date: "2017.07.26",
+    link: "https://www.yna.co.kr/view/AKR20170726162300001"
+  },
+  {
+    type: 'Media',
+    title: "청와대 황일웅 의무실장 임명, 세 정부 연속 의무실장",
+    source: "경향신문",
+    date: "2017.07.26",
+    link: "https://www.khan.co.kr/politics/president/article/201707261739001"
+  },
+  {
+    type: 'Column',
+    title: "[기고/황일웅]인도네시아에 민군합동구호팀 보내야",
+    source: "동아일보",
+    date: "2018.10.11",
+    link: "https://www.donga.com/news/Opinion/article/all/20181011/92348632/1"
+  },
+  {
+    type: 'Media',
+    title: "[의료바이오]황일웅 국군의무사령관 \"군이 편한 의료체계 구현 역점\"",
+    source: "PRESS9",
+    date: "2016.05.11",
+    link: "http://www.press9.kr/news/articleView.html?idxno=17429"
+  },
+  {
+    type: 'Media',
+    title: "제41대 국군의무사령관에 황일웅 준장 취임",
+    source: "메드월드뉴스",
+    date: "2014.12.25",
+    link: "http://www.medworld.co.kr/news/articleView.html?idxno=86242"
   }
 ];

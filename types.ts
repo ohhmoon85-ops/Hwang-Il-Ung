@@ -1,3 +1,4 @@
+
 export type Language = 'ko' | 'en';
 
 export interface NavItem {
@@ -22,6 +23,12 @@ export interface InsightItem {
   source: string;
   date: string;
   link?: string;
+}
+
+export interface GalleryItem {
+  image: string;
+  title: BilingualText;
+  category: string;
 }
 
 export enum ContactType {

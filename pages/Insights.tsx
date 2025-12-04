@@ -1,10 +1,11 @@
+
 import React from 'react';
-import { INSIGHTS_DATA } from '../constants';
+import { INSIGHTS_DATA, GALLERY_ITEMS } from '../constants';
 import { FileText, Mic, BookOpen, ExternalLink } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 
 const Insights: React.FC = () => {
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
 
   const getIcon = (type: string) => {
     switch (type) {
@@ -24,21 +25,6 @@ const Insights: React.FC = () => {
     }
   };
 
-  const galleryImages = [
-    {
-       src: "https://www.press9.kr/news/userArticlePhoto.html",
-       caption: "황일웅"
-    },
-    {
-       src: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=800",
-       caption: t.insights.gallery.img2
-    },
-    {
-       src: "https://images.unsplash.com/photo-1516574187841-69301976e499?auto=format&fit=crop&q=80&w=800",
-       caption: t.insights.gallery.img3
-    }
-  ];
-
   return (
     <div className="pt-24 pb-20 w-full min-h-screen bg-white">
       {/* Header */}
@@ -54,18 +40,29 @@ const Insights: React.FC = () => {
         </div>
       </div>
 
-      {/* Gallery Section */}
+      {/* Gallery Section - Updated to Choi Byung-Hyuk Style (Photo Card) */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-24">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {galleryImages.map((img, idx) => (
-                <div key={idx} className="group relative overflow-hidden rounded-lg shadow-md aspect-[4/3]">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {GALLERY_ITEMS.map((item, idx) => (
+                <div key={idx} className="group relative overflow-hidden rounded-xl shadow-lg aspect-[16/10]">
                     <img 
-                        src={img.src} 
-                        alt={img.caption}
-                        className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                        src={item.image} 
+                        alt={language === 'ko' ? item.title.ko : item.title.en}
+                        className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                     />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
-                        <span className="text-white font-medium text-lg">{img.caption}</span>
+                    {/* Dark Gradient Overlay */}
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent opacity-80 group-hover:opacity-90 transition-opacity duration-300"></div>
+                    
+                    {/* Content */}
+                    <div className="absolute bottom-0 left-0 p-8 w-full">
+                         {/* Gold Badge */}
+                        <span className="inline-block px-2 py-1 mb-3 text-xs font-bold text-white bg-[#D4AF37] rounded-sm tracking-wider uppercase">
+                            {item.category}
+                        </span>
+                        {/* Title */}
+                        <h3 className="text-xl md:text-2xl font-bold text-white leading-tight">
+                            {language === 'ko' ? item.title.ko : item.title.en}
+                        </h3>
                     </div>
                 </div>
             ))}
@@ -84,7 +81,6 @@ const Insights: React.FC = () => {
         <button className="px-4 py-2 bg-[#4A5568] text-white rounded-full text-sm font-medium">All</button>
         <button className="px-4 py-2 bg-gray-100 text-gray-600 hover:bg-gray-200 rounded-full text-sm font-medium transition-colors">Media</button>
         <button className="px-4 py-2 bg-gray-100 text-gray-600 hover:bg-gray-200 rounded-full text-sm font-medium transition-colors">Column</button>
-        <button className="px-4 py-2 bg-gray-100 text-gray-600 hover:bg-gray-200 rounded-full text-sm font-medium transition-colors">Paper</button>
       </div>
 
       {/* List */}

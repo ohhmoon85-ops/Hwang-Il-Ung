@@ -81,11 +81,6 @@ export const TRANSLATIONS = {
       headerDesc: '생명을 살리는 수술실의 긴박함부터 국가 보건 안보의 최전선까지, 의사이자 지휘관으로서 걸어온 헌신의 순간들입니다.',
       divider: '언론 및 학술 활동',
       readMore: 'Read More',
-      gallery: {
-        img1: '국가 위기 관리 전략 회의',
-        img2: '국군의무사령관 재임 시절',
-        img3: 'UAE 서울대병원 의료진 격려',
-      }
     },
     contact: {
       headerTitle: '만남과 연결',
@@ -206,11 +201,6 @@ export const TRANSLATIONS = {
       headerDesc: 'From the life-saving urgency of the operating room to the frontlines of national health security, these are moments of dedication walked as a doctor and commander.',
       divider: 'Media & Academic Activities',
       readMore: 'Read More',
-      gallery: {
-        img1: 'National Crisis Management Strategy Meeting',
-        img2: 'Serving as Surgeon General',
-        img3: 'Encouraging Medical Staff at UAE SKSH',
-      }
     },
     contact: {
       headerTitle: 'Connect',
