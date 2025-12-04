@@ -26,7 +26,7 @@ const Insights: React.FC = () => {
 
   const galleryImages = [
     {
-       src: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=800",
+       src: "https://www.press9.kr/news/userArticlePhoto.html",
        caption: "황일웅"
     },
     {
