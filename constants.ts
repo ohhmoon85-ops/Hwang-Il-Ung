@@ -125,13 +125,6 @@ export const INSIGHTS_DATA: InsightItem[] = [
     link: "https://www.newsis.com/view/NISX20170727_0000052417"
   },
   {
-    type: 'Media',
-    title: "청와대 황일웅 의무실장 임명, 세 정부 연속 의무실장",
-    source: "경향신문",
-    date: "2017.07.26",
-    link: "https://www.newsis.com/view/NISX20170727_0000052417"
-  },
-  {
     type: 'Column',
     title: "[기고/황일웅]인도네시아에 민군합동구호팀 보내야",
     source: "동아일보",
