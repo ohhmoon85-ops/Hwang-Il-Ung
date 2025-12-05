@@ -12,7 +12,7 @@ export const TRANSLATIONS = {
       title: '전장의 최전선에서',
       titleHighlight: '국민의 일상',
       titleSuffix: '까지',
-      subtitle: '제41대 국군의무사령관, 전 UAE 서울대병원 부원장. 그리고 현 서울대병원 교수. 황일웅은 언제나 생명을 지키는 가장 치열한 현장에 있었습니다.',
+      subtitle: '제41대 국군의무사령관, 전 UAE 서울대병원 부원장. 그리고 현재는 서울대 병원에서 민군의료의 가교 역할 및 한국의료의 해외 진출을 위해 힘쓰고 있습니다.',
       btnPrimary: '황일웅 소개 보기',
       btnSecondary: '전문 분야 확인하기',
     },
