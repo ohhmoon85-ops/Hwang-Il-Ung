@@ -21,9 +21,9 @@ export const NAV_ITEMS: NavItem[] = [
 export const CAREER_HISTORY: CareerItem[] = [
   {
     period: { ko: "현재", en: "Current" },
-    title: { ko: "서울대학교병원 임상교수", en: "Professor, Seoul National University Hospital" },
+    title: { ko: "서울대학교 진료교수", en: "Professor, Seoul National University Hospital" },
     description: {
-      ko: "정형외과 척추 전문의로서 환자 진료 및 후학 양성. 공공 보건 의료 정책 자문 수행.",
+      ko: "정형외과 전문의로서 환자 진료 및 후학 양성. 공공 보건 의료 정책 자문 수행.",
       en: "Specializing in orthopedic spine surgery, patient care, and education. Advising on public health policy."
     }
   },
@@ -39,21 +39,13 @@ export const CAREER_HISTORY: CareerItem[] = [
     period: "2014 - 2016",
     title: { ko: "제41대 국군의무사령관 (육군 준장)", en: "41st Surgeon General, ROK Armed Forces (Brigadier General)" },
     description: {
-      ko: "국가 방역 체계 구축 및 메르스(MERS) 사태 당시 군 의료 인력 지원 총괄 지휘. 군 의료 체계 혁신 주도.",
-      en: "Directed national quarantine systems and military medical support during the MERS crisis. Led innovation in military medicine."
+      ko: "군 방역 체계 구축 및 메르스(MERS) 사태 당시 군 의료 인력 지원 총괄 지휘. 군 의료 체계 혁신 주도. 군 중증 외상 센터 건립 추진 및 선진 의료 시스템 도입. 장병 진료 환경 대폭 개선.",
+      en: "Directed national quarantine systems and military medical support during the MERS crisis. Led innovation in military medicine. Promoted the establishment of a military severe trauma center and introduced advanced medical systems."
     }
   },
-  {
-    period: "2012 - 2014",
-    title: { ko: "국군수도병원장", en: "Director, Armed Forces Capital Hospital" },
-    description: {
-      ko: "군 중증 외상 센터 건립 추진 및 선진 의료 시스템 도입. 장병 진료 환경 대폭 개선.",
-      en: "Promoted the establishment of a military severe trauma center and introduced advanced medical systems."
-    }
-  },
-  {
+    {
     period: { ko: "현재", en: "Current" },
-    title: { ko: "국가위기관리센터 정책 자문위원", en: "Policy Advisor, National Crisis Management Center" },
+    title: { ko: "국방부 의료 자문위원, 대한정형외과 군진의학원회 위원장, 대한 척추외과 회원, 대한 족관절외과 회원", en: "Advisory Committee Member for the Ministry of National Defense (Medical Affairs), Chairman of Military Medicine Committee of Korean Orthopaedic Association, Member of Korean Spinal Surgery Society, Member of Korean Foot and Ankle Society" },
     description: {
       ko: "국가적 재난 및 감염병 위기 상황에 대한 의료 안보 전략 수립 자문.",
       en: "Advising on medical security strategies for national disasters and infectious disease crises."
